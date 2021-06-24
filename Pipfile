@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+prometheus-api-client = "*"
+click = "*"
+setuptools = "*"
+cortexutil = {editable = true, path = "."}
+requests = "*"
+pytest-mock = "*"
+
+[dev-packages]
+pytest-html = "*"
+pytest-cov = "*"
+pytest = "*"
+requests-mock = "*"
+pytest-mock = "*"
+black = "*"
+
+[requires]
+python_version = "3.7"
