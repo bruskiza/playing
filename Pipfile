@@ -9,7 +9,6 @@ click = "*"
 setuptools = "*"
 cortexutil = {editable = true, path = "."}
 requests = "*"
-pytest-mock = "*"
 
 [dev-packages]
 pytest-html = "*"
@@ -17,7 +16,6 @@ pytest-cov = "*"
 pytest = "*"
 requests-mock = "*"
 pytest-mock = "*"
-black = "*"
 
 [requires]
 python_version = "3.7"
